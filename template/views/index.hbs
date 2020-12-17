@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>programming joke</title>
+
+    {{!-- colour pallet link https://coolors.co/292f36-4ecdc4-f7fff7-ff6b6b-ffe66d --}}
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: #292f36;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .joke {
+            background-color: #ff6b6b;
+            width: 500px;
+            padding: 30px;
+            border-radius: 5px;
+            position: absolute;
+            top: 50%;
+            transform: translatey(-50%);
+            color: #f7fff7;
+            line-height: 25px;
+            font-size: large;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="joke">
+        {{joke}}
+    </div>
+</body>
+
+</html>
